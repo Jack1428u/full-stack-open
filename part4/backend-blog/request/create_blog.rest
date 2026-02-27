@@ -1,0 +1,11 @@
+POST http://localhost:4500/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJvdCIsIm5hbWUiOiJCb3QgVXNlciIsImlkIjoiNjlhMWM4NTkwMTU2YmYwY2M3NDljMTdkIiwiaWF0IjoxNzcyMjEwNDAzfQ._A53Dv0l8RD8WBBz3DHqWVWOv0ahAIilj4na2I_NfP0
+
+{
+    "author":"Muichiro Tokito",
+    "title":"Sin límites",
+    "url":"http://git-scm.com/docs",
+    "likes":70003,
+    "user":"69a1c8590156bf0cc749c17d"
+}
